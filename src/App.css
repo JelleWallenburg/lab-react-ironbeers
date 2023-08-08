@@ -40,3 +40,50 @@
 .beerImage {
   width:100%;
 }
+
+.oneBeer{
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 5%;
+}
+.oneBeerImage{
+  max-width: 10%;
+  padding:5%;
+  object-fit:cover;
+}
+
+.beerInfo{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-size:0.8em;
+}
+
+.detailedBeer{
+  display:flex;
+  flex-direction: column;
+  padding:5%;
+  justify-content: flex-start;
+}
+
+.detailedBeer img{
+  max-width:10%;
+  padding: 5%;
+
+}
+.detailedBeer h1,h2 {
+  text-align: left;
+  font-size:  1.1em;
+}
+
+.detailedBeer p {
+  text-align:justify;
+}
+
+.beerTitle {
+  display:flex;
+  orientation: row;
+  justify-content: space-around;
+}
+
